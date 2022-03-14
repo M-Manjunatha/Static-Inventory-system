@@ -1,0 +1,146 @@
+ header
+{
+    background-color: rgb(188, 243, 7);
+    text-align: center;
+    
+    
+} 
+h1
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:45px;
+    color:maroon;
+    justify-content:center ;
+}
+
+.h1p
+{
+   font-size:20px;
+   color:green;
+}
+nav 
+{
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  height: 30px;
+  padding-top: 10px;
+
+}
+a
+{
+  display: block;
+  color: white;
+  text-indent: 10px;
+  font-size:20px;
+  padding-inline-end: 20px;
+ 
+}
+.item
+{
+  display: flex;
+  height:245px;
+  width:250px;
+  overflow: hidden;
+  border: 1px solid silver;
+}
+.item:hover
+{
+  transform: scale(1.05);
+}
+
+
+.products
+{
+  display: inline-block;
+  font-style:oblique; 
+  font-size:20px ;   
+  color: darkcyan;
+  padding-bottom:10px;
+  margin-left: 13px;
+  position:relative;
+}
+
+button
+{
+  background-color: darkgreen;
+  color:white;
+  cursor: pointer;
+  padding: 7px 30px;
+  overflow:hidden;
+  position:absolute;
+  right: 20px;
+  bottom: 20px;
+  display:block;
+}
+
+footer
+{
+    
+  background-color: rgb(115, 204, 163);
+  font-size:20px;
+  font-family:fantasy;
+  padding:0.5mm;
+  text-align: center;
+  color:blanchedalmond;
+  margin-top:60px;
+    
+}
+
+.row1
+{
+  background-color:#eae9fd;
+  display: flex;
+  padding: 10px;
+  padding-bottom: 30px;
+}
+
+.gallary1
+{
+  display:flex;
+  flex: 0.3;
+  flex-direction:row;
+  overflow:hidden;
+  border: 2px solid silver;
+  width: 100px;
+  height:250px;
+  padding:0.5px;
+  margin-right: 20px;
+}
+
+.gallary1:hover
+{
+  transform: scale(1.02);
+}
+
+.gallary2:hover
+{
+  transform: scale(1.02);
+}
+
+
+.row2
+{
+  display: flex;
+  background-color: #eae9fd;
+  padding:10px;
+  padding-bottom: 30px;
+}
+
+.gallary2
+{
+  display:flex;
+  flex: 0.3;
+  flex-direction:row;
+  overflow:hidden;
+  border: 2px solid silver;
+  width: 100px;
+  height:250px;
+  padding:0.5px;
+  margin-right: 20px;
+}
+.prod:hover + .products
+{
+  display:block;
+}
+
